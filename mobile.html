@@ -1,98 +1,71 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Harga Sewa Mobil - Rental Mobil Medan</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Harga Sewa Mobil</title>
   <style>
     body {
+      margin: 0;
       font-family: Arial, sans-serif;
-      background: #0d3d7d;
+      background-color: #003366;
       color: #fff;
-      margin: 0;
-      padding: 0;
     }
-
-    h1 {
-      text-align: center;
-      padding: 20px;
-      background-color: #062b52;
-      margin: 0;
-    }
-
-    .pricing-container {
+    .container {
       display: flex;
-      justify-content: center;
-      gap: 20px;
-      padding: 40px;
       flex-wrap: wrap;
+      justify-content: center;
+      padding: 30px 0;
     }
-
     .card {
       background-color: #fff;
       color: #000;
       border-radius: 10px;
-      width: 280px;
+      margin: 20px;
       padding: 20px;
-      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+      width: 300px;
       text-align: center;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.3);
     }
-
-    .card h3 {
-      margin-top: 0;
-      background-color: #0d3d7d;
+    .card h2 {
+      background-color: #003366;
       color: #fff;
-      padding: 10px;
-      border-radius: 5px 5px 0 0;
+      padding: 10px 0;
+      border-radius: 10px 10px 0 0;
     }
-
-    .card p {
-      margin: 5px 0;
-    }
-
     .price {
       font-size: 28px;
-      font-weight: bold;
-      color: #0d3d7d;
+      color: #003366;
       margin: 15px 0;
     }
-
     ul {
       list-style: none;
       padding: 0;
-      margin: 0;
-      text-align: left;
     }
-
     ul li::before {
       content: "★ ";
-      color: #e53935;
+      color: orange;
     }
-
-    .btn-booking {
-      background-color: #e53935;
+    .btn {
+      background-color: #d62828;
       color: #fff;
-      padding: 10px 20px;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 5px;
       text-decoration: none;
       display: inline-block;
-      margin-top: 20px;
-      border-radius: 5px;
-      transition: background 0.3s;
+      margin-top: 15px;
     }
-
-    .btn-booking:hover {
-      background-color: #c62828;
+    .btn:hover {
+      background-color: #b71c1c;
     }
   </style>
 </head>
 <body>
-
-  <h1>Daftar Harga Rental Mobil - Dalam Kota Medan</h1>
-
-  <div class="pricing-container">
+  <h1 style="text-align:center;">Harga Sewa Mobil Dalam Kota Medan</h1>
+  <div class="container">
     <div class="card">
-      <h3>MEDIUM BUS</h3>
-      <p>Dalam Kota Medan</p>
+      <h2>MEDIUM BUS</h2>
       <div class="price">Rp. 2.000.000</div>
       <p>Include:</p>
       <ul>
@@ -100,12 +73,10 @@
         <li>Driver</li>
         <li>BBM</li>
       </ul>
-      <a href="#" class="btn-booking">Booking Sekarang</a>
+      <a href="#" class="btn">Booking Sekarang</a>
     </div>
-
     <div class="card">
-      <h3>BIG BUS</h3>
-      <p>Dalam Kota Medan</p>
+      <h2>BIG BUS</h2>
       <div class="price">Rp. 2.300.000</div>
       <p>Include:</p>
       <ul>
@@ -113,12 +84,10 @@
         <li>Driver</li>
         <li>BBM</li>
       </ul>
-      <a href="#" class="btn-booking">Booking Sekarang</a>
+      <a href="#" class="btn">Booking Sekarang</a>
     </div>
-
     <div class="card">
-      <h3>NEW CAMRY HEV</h3>
-      <p>Dalam Kota Medan</p>
+      <h2>NEW CAMRY HEV</h2>
       <div class="price">Rp. 2.400.000</div>
       <p>Include:</p>
       <ul>
@@ -126,9 +95,8 @@
         <li>Driver</li>
         <li>BBM</li>
       </ul>
-      <a href="#" class="btn-booking">Booking Sekarang</a>
+      <a href="#" class="btn">Booking Sekarang</a>
     </div>
   </div>
-
 </body>
 </html>
